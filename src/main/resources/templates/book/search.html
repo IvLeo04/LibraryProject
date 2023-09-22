@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Book</title>
+</head>
+<body>
+<form th:method="POST" th:action="@{/book/searchBook}" >
+    <label for="search"> Введите поисковый запрос: </label>
+    <input type="text" th:name="text" id="search">
+    <input type="submit" value="Создать!">
+</form>
+</body>
+</html>
